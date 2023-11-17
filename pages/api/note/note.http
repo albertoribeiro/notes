@@ -1,0 +1,25 @@
+@baseUrl = http://localhost:3000/api/note
+//GET {{baseUrl}}
+
+POST {{baseUrl}}/create
+Content-Type: application/json
+
+{
+  "title": "test",
+  "content": "test"
+}
+
+
+DELETE {{baseUrl}}/13
+
+
+PUT {{baseUrl}}/199
+Content-Type: application/json
+
+{
+  "title": "titulo alterado",
+  "content": "conteudo alterado "
+}
+
+
+GET {{baseUrl}}/15
