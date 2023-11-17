@@ -5,7 +5,7 @@ Create .env file wirh
 DATABASE_URL=<connection string>
 
 
-First, run the development server:
+then, run the development server:
 
 ```bash
 npm run dev
